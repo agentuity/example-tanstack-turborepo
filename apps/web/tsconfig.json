@@ -3,9 +3,13 @@
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
-			"@/*": ["./src/*"],
-			"@agentuity/routes": ["../agentuity/src/generated/routes.ts"]
+			"@/*": [
+				"./src/*"
+			],
 		}
 	},
-	"include": ["src", "vite.config.ts"]
+	"include": [
+		"src",
+		"vite.config.ts"
+	]
 }
